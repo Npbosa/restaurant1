@@ -1,0 +1,46 @@
+footer{
+  text-align: center;
+}
+h2{
+  font-size: 20px
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+  font-size: 30px;
+  line-heigh: 40pf;
+  color: black;
+  font-style: italic;
+}
+hr{
+  border-top: 3px double black
+}
+h2{
+  font-size: 10px;
+  line-height: 10px;
+  color: black;
+}
+a{
+  font-family: serif;
+  text-decoration: underline;
+  font weight: none;
+}
+a:link {
+  color: #44749d;
+}
+a:hover {
+  color: #44749d;
+}
+a:active {
+  color: #8c2328;
+}
+table{
+  column height: auto;
+  border-radius: 1px solid black
+}
+img{
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+}
