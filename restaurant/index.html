@@ -2,7 +2,12 @@
 <html>
 <head>
   <title>Noahs restaurant project</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"</script>
+  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"></script>
   <style>
   table{
     width:100%
@@ -14,7 +19,6 @@
   }
   p{
     text-align:center;
-    text-align:justify;
   }
   Body{
     text-align: center;
@@ -23,40 +27,45 @@
   main{
     align-items: center;
   }
+  footer{
+    text-align: center;
+  }
+  main{
+    align: center;
+    width:400px;
+  }
+
   </style>
 </head>
 <head>
-  <nvbft>
-    <navpl><a href="index.html" target="_blank">Home</a></navpl>
-    <navpl><a href="contactUs.html" target="_blank">Contact Us</a></navpl>
-      <hr />
-  </nbft>
+  <container>
+    <button onclick="window.location.href='index.html'">Home</button>
+    <button onclick="window.location.href='menu2.html'">Menu</button>
+    <button onclick="window.location.href='contactUs.html'">Contact Us</button>
+  </container>
 </head>
 <body>
   <div id= "title">
     <h1>Bosa's Traditional Italian</h1>
   </div>
   <hr />
-<div class="image"><img src="/Users/noahbosa1/Software Guild Projects/restaurant/images/pizza.jpg"
-  alt="photo of a pizza" width="400" height="150" >
-<div id="main">
-  <p style="border:3px; border-style:solid; border-color:black; padding: 3px; margin:300px;">
+<div class="image"><img src="images/pizza.jpg"
+  alt="photo of a pizza" width="400px" height="auto"></div>
+  <div class="container">
+    <p style="border:3px; border-style:solid; border-color:black; padding: 3px; margin:100px; width:400;">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum cursus orci sed rhoncus.
-     Morbi neque dui, varius in rutrum ac, luctus et dui. Sed sagittis, enim sed maximus fringilla, mauris nunc auctor nunc, at tempus diam sem non ante.
-     Duis id urna ex. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas purus enim, malesuada vel molestie a, suscipit in justo.<br> Curabitur lobortis volutpat enim,
-     id luctus diam pretium eget. Donec vestibulum nulla magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-     Duis vulputate consectetur est, eget pulvinar odio tempus sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-     Fusce sit amet rutrum ante, quis consequat purus. Proin suscipit congue est.<p></td>
+    Morbi neque dui, varius in rutrum ac, luctus et dui. Sed sagittis, enim sed maximus fringilla, mauris nunc auctor nunc, at tempus diam sem non ante.
+    Duis id urna ex. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas purus enim, malesuada vel molestie a, suscipit in justo.<br> Curabitur lobortis volutpat enim,
+    id luctus diam pretium eget. Donec vestibulum nulla magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Duis vulputate consectetur est, eget pulvinar odio tempus sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+    Fusce sit amet rutrum ante, quis consequat purus. Proin suscipit congue est.</p>
   </div>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
-  </script>
 </body>
   <div id="footer">
   <hr />
     <footer>
-      <p> &copy;2018 Noah Bosa </p>
-      <p><a href="https://www.thesoftwareguild.com" target="_blank">The Software Guild</a><p>
+      <p> &copy;2018 Noah Bosa
+      <a href="https://www.thesoftwareguild.com" target="_blank">The Software Guild</a></p>
     </footer>
   </div>
   </html>
